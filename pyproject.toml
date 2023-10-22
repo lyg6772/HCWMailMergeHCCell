@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hcwmailmergehccell"
+version = "0.0.1"
+description = ""
+authors = ["youngkwon.lee <lyg6772@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+pywin32 = "^306"
+pandas = "^2.1.1"
+openpyxl = "^3.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
